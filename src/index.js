@@ -1,4 +1,8 @@
 
+// global.jquery = require('jquery');
+// require('bootstrap');
+// import 'bootstrap/dist/css/bootstrap.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -7,7 +11,6 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
     <App />,
-    document.getElementById('root')
-);
+    document.getElementById('root'));
 
 registerServiceWorker();

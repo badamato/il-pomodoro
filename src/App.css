@@ -1,4 +1,77 @@
+#background {
+    background-image: url('tom2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.9;
+}
 
+.app-content {
+    width: 380px;
+    max-height: 400px;
+    margin: 100px auto 0;
+    padding: 10px;
+    border: 20px solid rgb(85,107,47);
+}
+
+.app-content h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.app-content h3 {
+    width: 40%;
+    text-align: center;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+input {
+    font-size: 1.5em;
+}
+
+input.pad-fix {
+    padding: 1px;
+}
+
+/* BREAKPOINTS */
+
+@media (max-width: 355px) {
+
+    .app-content h3 {
+        width: 60%;
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+    .app-content h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .app-content {
+        margin: 20px 20px 0;
+        width: auto;
+    }
+
+    #background {
+        width: auto;
+        height: auto;
+    }
+}
 
 
 
